@@ -8,7 +8,7 @@ function getnote(){
     txtarea = document.createElement('textarea')
     txtareatxt = document.createTextNode('')
     txtarea.appendChild(txtareatxt)
-    txtarea.setAttribute('class','w-[100%] h-[100%] rounded-lg p-2 bg-blue-300 hover:bg-blue-200 text-900-blue hover:border-3 hover:cursor-pointer')
+    txtarea.setAttribute('class','w-[100%] h-[100%] rounded-lg p-2 bg-blue-300 hover:bg-blue-200 font-sans text-900-blue hover:border-3 hover:cursor-pointer text-xl')
     txtarea.setAttribute('Placeholder','Enter text')
     notediv = document.createElement('div')
     notediv.appendChild(txtarea)
